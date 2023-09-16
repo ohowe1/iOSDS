@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct iOSDSApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+  @StateObject var controller = DriverStationController()
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(controller)
+        .task {
+          controller.begin(connectTo: "127.0.0.1")
         }
     }
+  }
 }

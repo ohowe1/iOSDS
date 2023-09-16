@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07623EB52872677500EBD632 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F78B33286E467700A1BEC1 /* Tags.swift */; };
 		07943C28286C08FB0083342D /* iOSDSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C18286C08FA0083342D /* iOSDSApp.swift */; };
 		07943C29286C08FB0083342D /* iOSDSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C18286C08FA0083342D /* iOSDSApp.swift */; };
 		07943C2A286C08FB0083342D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C19286C08FA0083342D /* ContentView.swift */; };
 		07943C2B286C08FB0083342D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C19286C08FA0083342D /* ContentView.swift */; };
 		07943C2C286C08FB0083342D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07943C1A286C08FB0083342D /* Assets.xcassets */; };
 		07943C2D286C08FB0083342D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07943C1A286C08FB0083342D /* Assets.xcassets */; };
+		07943C38286C092B0083342D /* EnableDisableButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C37286C092B0083342D /* EnableDisableButtons.swift */; };
+		07943C39286C092B0083342D /* EnableDisableButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C37286C092B0083342D /* EnableDisableButtons.swift */; };
+		07943C3B286C09470083342D /* DriverStationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C3A286C09470083342D /* DriverStationController.swift */; };
+		07943C3C286C09470083342D /* DriverStationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C3A286C09470083342D /* DriverStationController.swift */; };
+		07943C3E286C09560083342D /* UDPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C3D286C09560083342D /* UDPConnection.swift */; };
+		07943C3F286C09560083342D /* UDPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C3D286C09560083342D /* UDPConnection.swift */; };
+		07943C41286C09A90083342D /* StatusLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C40286C09A90083342D /* StatusLight.swift */; };
+		07943C42286C09A90083342D /* StatusLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C40286C09A90083342D /* StatusLight.swift */; };
+		07943C44286C09EA0083342D /* RobotStatusLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C43286C09EA0083342D /* RobotStatusLights.swift */; };
+		07943C45286C09EA0083342D /* RobotStatusLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C43286C09EA0083342D /* RobotStatusLights.swift */; };
+		07943C47286C0A140083342D /* IPSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C46286C0A140083342D /* IPSelector.swift */; };
+		07943C48286C0A140083342D /* IPSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C46286C0A140083342D /* IPSelector.swift */; };
+		07943C4A286C0A330083342D /* FullStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C49286C0A330083342D /* FullStatusView.swift */; };
+		07943C4B286C0A330083342D /* FullStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C49286C0A330083342D /* FullStatusView.swift */; };
+		07943C4D286C0A460083342D /* RobotModeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C4C286C0A460083342D /* RobotModeSelector.swift */; };
+		07943C4E286C0A460083342D /* RobotModeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07943C4C286C0A460083342D /* RobotModeSelector.swift */; };
+		07F78B34286E467700A1BEC1 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F78B33286E467700A1BEC1 /* Tags.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,15 @@
 		07943C1F286C08FB0083342D /* iOSDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07943C25286C08FB0083342D /* iOSDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07943C27286C08FB0083342D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		07943C37286C092B0083342D /* EnableDisableButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableDisableButtons.swift; sourceTree = "<group>"; };
+		07943C3A286C09470083342D /* DriverStationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverStationController.swift; sourceTree = "<group>"; };
+		07943C3D286C09560083342D /* UDPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPConnection.swift; sourceTree = "<group>"; };
+		07943C40286C09A90083342D /* StatusLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLight.swift; sourceTree = "<group>"; };
+		07943C43286C09EA0083342D /* RobotStatusLights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotStatusLights.swift; sourceTree = "<group>"; };
+		07943C46286C0A140083342D /* IPSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPSelector.swift; sourceTree = "<group>"; };
+		07943C49286C0A330083342D /* FullStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStatusView.swift; sourceTree = "<group>"; };
+		07943C4C286C0A460083342D /* RobotModeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotModeSelector.swift; sourceTree = "<group>"; };
+		07F78B33286E467700A1BEC1 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +81,13 @@
 		07943C17286C08FA0083342D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				07F78B32286E466D00A1BEC1 /* Tags */,
+				07943C36286C09040083342D /* Views */,
 				07943C18286C08FA0083342D /* iOSDSApp.swift */,
 				07943C19286C08FA0083342D /* ContentView.swift */,
 				07943C1A286C08FB0083342D /* Assets.xcassets */,
+				07943C3A286C09470083342D /* DriverStationController.swift */,
+				07943C3D286C09560083342D /* UDPConnection.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +107,27 @@
 				07943C27286C08FB0083342D /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		07943C36286C09040083342D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07943C37286C092B0083342D /* EnableDisableButtons.swift */,
+				07943C40286C09A90083342D /* StatusLight.swift */,
+				07943C43286C09EA0083342D /* RobotStatusLights.swift */,
+				07943C46286C0A140083342D /* IPSelector.swift */,
+				07943C49286C0A330083342D /* FullStatusView.swift */,
+				07943C4C286C0A460083342D /* RobotModeSelector.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07F78B32286E466D00A1BEC1 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				07F78B33286E467700A1BEC1 /* Tags.swift */,
+			);
+			path = Tags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +175,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					07943C1E286C08FB0083342D = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -176,7 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07943C4D286C0A460083342D /* RobotModeSelector.swift in Sources */,
 				07943C2A286C08FB0083342D /* ContentView.swift in Sources */,
+				07F78B34286E467700A1BEC1 /* Tags.swift in Sources */,
+				07943C38286C092B0083342D /* EnableDisableButtons.swift in Sources */,
+				07943C3E286C09560083342D /* UDPConnection.swift in Sources */,
+				07943C4A286C0A330083342D /* FullStatusView.swift in Sources */,
+				07943C3B286C09470083342D /* DriverStationController.swift in Sources */,
+				07943C41286C09A90083342D /* StatusLight.swift in Sources */,
+				07943C47286C0A140083342D /* IPSelector.swift in Sources */,
+				07943C44286C09EA0083342D /* RobotStatusLights.swift in Sources */,
 				07943C28286C08FB0083342D /* iOSDSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +246,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07943C4E286C0A460083342D /* RobotModeSelector.swift in Sources */,
 				07943C2B286C08FB0083342D /* ContentView.swift in Sources */,
+				07623EB52872677500EBD632 /* Tags.swift in Sources */,
+				07943C39286C092B0083342D /* EnableDisableButtons.swift in Sources */,
+				07943C3F286C09560083342D /* UDPConnection.swift in Sources */,
+				07943C4B286C0A330083342D /* FullStatusView.swift in Sources */,
+				07943C3C286C09470083342D /* DriverStationController.swift in Sources */,
+				07943C42286C09A90083342D /* StatusLight.swift in Sources */,
+				07943C48286C0A140083342D /* IPSelector.swift in Sources */,
+				07943C45286C09EA0083342D /* RobotStatusLights.swift in Sources */,
 				07943C29286C08FB0083342D /* iOSDSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +297,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -286,6 +357,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -317,8 +389,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,8 +419,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = WMWVL4TBXV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -402,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = WMWVL4TBXV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
